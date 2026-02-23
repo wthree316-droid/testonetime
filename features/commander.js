@@ -7,7 +7,7 @@ import { getSpamStats, resetSpamState } from './spamGuard.js';
 import { getGroupConfig, updateGroupConfig, isGroupAdmin } from './storage.js';
 
 // ⚠️ ใส่ LINE User ID ของคุณ (เจ้าของบอท)
-const MASTER_ADMIN_ID = "Ue8fd577686cee8983a7705a65d581d4b"; 
+const MASTER_ADMIN_ID = "U42ccfb896a406bc44dea5f974b59fab6"; 
 
 export async function handleAdminCommands(event, client) {
   const userId = event.source.userId;

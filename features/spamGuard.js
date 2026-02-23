@@ -48,7 +48,7 @@ export async function detectSpam(event, client) {
    // ✨ 2. (เพิ่มใหม่) เช็คว่าเป็นแอดมินไหม? ถ้าใช่ ให้ปล่อยผ่าน (Immunity)
   // ให้ใส่ User ID ตัวจริงของคุณตรงคำว่า "USER_ID_ของคุณ"
   // หรือถ้าไม่อยาก Hardcode ตรงนี้ ให้ไปแก้ storage.js ให้ export MASTER_ID มาใช้
-  const MY_MASTER_ID = "Ue8fd577686cee8983a7705a65d581d4b"; // ใส่ ID คุณตรงนี้
+  const MY_MASTER_ID = "U42ccfb896a406bc44dea5f974b59fab6"; // ใส่ ID คุณตรงนี้
   
   const isAdmin = await isGroupAdmin(groupId, userId, MY_MASTER_ID);
     if (isAdmin) {
